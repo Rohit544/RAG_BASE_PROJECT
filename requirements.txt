@@ -1,0 +1,26 @@
+# -------- Core Backend --------
+fastapi
+uvicorn
+
+# -------- RAG & LLM --------
+langchain
+openai
+tiktoken
+
+# -------- Vector Database --------
+faiss-cpu
+
+# -------- Document Processing --------
+pypdf
+python-multipart
+
+# -------- Environment & Config --------
+python-dotenv
+
+# -------- Authentication & Security --------
+python-jose
+passlib[bcrypt]
+
+# -------- Utilities --------
+numpy
+requests
