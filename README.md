@@ -59,7 +59,29 @@ This ensures:
 ---
 
 ## 📁 Project Structure
-
+rag-knowledge-assistant/
+│
+├── backend/
+│ ├── app/
+│ │ ├── api/ # API routes
+│ │ ├── core/ # Config & security
+│ │ ├── ingestion/ # Document loading & chunking
+│ │ ├── embeddings/ # Embedding logic
+│ │ ├── vectorstore/ # FAISS integration
+│ │ ├── rag/ # Prompts & RAG chain
+│ │ └── main.py
+│ ├── data/uploads/ # Uploaded documents
+│ ├── requirements.txt
+│ └── Dockerfile
+│
+├── frontend/
+│ ├── src/
+│ ├── public/
+│ ├── Dockerfile
+│ └── package.json
+│
+├── docker-compose.yml
+└── README.md
 
 ---
 
